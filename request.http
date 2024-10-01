@@ -1,0 +1,31 @@
+### GET ALL CATEGORIES
+GET http://localhost:3000/category
+
+### GET CATEGORY BY ID
+GET http://localhost:3000/category/1
+
+### POST CATEOGORY
+POST http://localhost:3000/category
+Content-Type: application/json
+
+{
+    "name": "elektabilitas"
+}
+
+### PUT CATEGORY
+PUT http://localhost:3000/category/1
+Content-Type: application/json
+
+{
+    "name": "Pakaian dan Aksesoris"
+}
+
+### DELETE Category
+DELETE http://localhost:3000/category/1
+
+### GET Product By Query
+GET http://localhost:3000/product?query=ip
+
+
+### GET Prodcut By Query and Params
+GET http://localhost:3000/category/1/product?searchQuery=ip
